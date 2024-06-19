@@ -1,0 +1,6 @@
+@Net9OpenApiBugTest_HostAddress = http://localhost:5250
+
+GET {{Net9OpenApiBugTest_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

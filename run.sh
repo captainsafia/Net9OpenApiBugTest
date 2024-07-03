@@ -1,0 +1,1 @@
+docker build . -t openapibug-56309 -f Net9OpenApiBugTest/Dockerfile && docker run -it --rm -p 8080:8080 --name openapibug-app openapibug-56309 
